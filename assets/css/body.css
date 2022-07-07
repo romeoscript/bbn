@@ -1,0 +1,20 @@
+.grid-content{
+    display: grid;
+    gap: 2;
+    margin: 60px 10px;
+    grid-template-columns: 2fr 1fr;
+    border: 5px solid red;
+}
+.grid-items .first-flex{
+    display: flex;
+    background-color: gold;
+    justify-content: space-between;
+}
+.grid-items .first-flex a{
+   border-radius: 5px;
+   background-color: white;
+   color: black;
+   text-decoration: none;
+   box-shadow: 0px 4px 28px 3px #0000001A;
+   padding: 0;
+}
