@@ -44,3 +44,10 @@ body{
     transform: scale(1);
   }
 }
+a{
+  text-decoration: none;
+  
+}
+li{
+  list-style: none;
+}
