@@ -2,7 +2,13 @@
   display: grid;
   gap: 2%;
   margin: 60px 30px;
-  grid-template-columns: 2fr 1fr;
+ grid-template-columns: 2fr 1fr;
+}
+.grid-items{
+  flex-basis: 60%;
+}
+.grid-items2{
+  flex-basis: 30%;
 }
 .grid-items .first-flex{
   display: flex;
@@ -15,8 +21,8 @@
   text-decoration: none;
 }
 .grid-contain {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   /* place-items: center  space-between; */
   background: #fff6d8;
@@ -80,7 +86,7 @@
 }
 .betslip form {
   width: 90%;
-  border: 2px solid red;
+  
   text-align: center;
   padding: 15px 10px;
   padding: 10px;
@@ -110,7 +116,7 @@
     opacity: .7;
 }
 .grid-updates{
-    border: 2px solid red;
+   
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -128,7 +134,7 @@
 .update-news figure{
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
+ 
     padding: 20px;
     background: linear-gradient(180deg, #fae7fa 21.19%, #f8e0bc 86.92%);
 }
@@ -156,4 +162,50 @@
 .update-news a {
     color: black;
     text-decoration: none;
+}
+/* swiper */
+.swiper .swiper-slide{
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+  background: linear-gradient(180deg, #fae7fa 21.19%, #f8e0bc 86.92%);
+  width: 500px;
+}
+.swiper .swiper-slide img{
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.swiper .swiper-slide a{
+  color: black;
+  text-decoration: none;
+}
+.swiper .swiper-slide .text h3,.swiper .swiper-slide .text p{
+  font-size: 12px;
+}
+
+/* swiper */
+.certification{
+  height: 400px;
+  width:auto;
+  background: linear-gradient(180deg, #632B64 21.19%, #DD8500 86.92%);
+  opacity: 15%;
+  margin: 19px;
+
+}
+
+
+@media (max-width:900px){
+ .grid-contain h3{
+  font-size: 2vh;
+ }
+ .grid-content{
+  grid-template-columns:  1fr;
+ }
+}
+@media (max-width:480px) {
+  .button-wrap div {
+    font-size: 10px;
+  }
 }

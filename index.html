@@ -9,10 +9,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
   <body>
+    <!-- preloader -->
+    <div id="preloader">
+      <p>B</p>
+    </div>
+    <!-- preloader ends -->
     <!-- header-section -->
     <header>
       <!-- navigation-bar -->
@@ -55,6 +64,50 @@
     <!-- header-section -->
 
     <!-- body -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper slide-cont">
+        <div class="swiper-slide">
+          <img src="./assets/images/Rectangle 79.png" alt="icon" />
+          <div class="text">
+            <h3>sasha has been evicted</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Magnam quaerat voluptatem tenetur veniam, maiores quam.
+              Ratione delectus quasi porro?
+            </p> 
+            <p class="ancho"><a href="#">Read more</a></p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/Rectangle 79.png" alt="icon" />
+          <div class="text">
+            <h3>sasha has been evicted</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Magnam quaerat voluptatem tenetur veniam, maiores quam.
+              Ratione delectus quasi porro?
+            </p> 
+            <p class="ancho"><a href="#">Read more</a></p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/Rectangle 79.png" alt="icon" />
+          <div class="text">
+            <h3>sasha has been evicted</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Magnam quaerat voluptatem tenetur veniam, maiores quam.
+              Ratione delectus quasi porro?
+            </p> 
+            <p class="ancho"><a href="#">Read more</a></p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
     <div class="grid-content">
       <div class="grid-items">
         <div class="grid-kid">
@@ -264,6 +317,29 @@
                   <p class="ancho"><a href="#">Read more</a></p>
                 </div>
               </figure>
+              <figure>
+                <img src="./assets/images/Rectangle 79.png" alt="icon" />
+                <div class="text">
+                  <h3>sasha has been evicted</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magnam quaerat voluptatem tenetur veniam, maiores quam.
+                    Ratione delectus quasi porro?
+                  </p> 
+                  <p class="ancho"><a href="#">Read more</a></p>
+                </div>
+              </figure>
+          </div>
+
+
+        </div>
+        <!-- updates ends here -->
+
+        <div class="contact-info">
+          <h3>CONTACT US</h3>
+          <hr>
+          <div class="certification">
+
           </div>
         </div>
       </div>
@@ -276,44 +352,36 @@
       <nav class="footer-nav">
         <ul class="footer-nav-item">
           <li class="footer-nav-list">
-            <a href="#">Contact Us</a>
+            <a href="#">HOME</a>
             <!-- second navigation layer -->
             <ul>
               <li>
                 <a href="#"
-                  ><span class="fa fa-map-marker" aria-hidden="true"></span
-                ></a>
+                  >CONTACT-US</a>
               </li>
               <li>
                 <a href="#"
-                  ><span class="fa fa-telegram" aria-hidden="true"></span
-                ></a>
+                  >ABOUT-US</a>
               </li>
               <li>
                 <a href="#"
-                  ><span class="fa fa-whatsapp" aria-hidden="true"></span
-                ></a>
+                  >RESULTS</a>
               </li>
               <li>
                 <a href="#"
-                  ><span class="fa fa-phone" aria-hidden="true"></span
-                ></a>
+                  >TERMS AND CONDITIONS</a>
+              </li>
+              <li>
+                <a href="#"
+                  >RESPONSIBLE GAMBLING</a>
+              </li>
+              <li>
+                <a href="#"
+                  >PRIVACY</a>
               </li>
             </ul>
           </li>
-          <li class="footer-nav-list">
-            <a href="#">Explore</a>
-            <!-- second navigation layer -->
-            <ul>
-              <li><a href="./about.html">About Us</a></li>
-              <li><a href="./market.html">The Market</a></li>
-              <li><a href="./login and signup/signup.html">Sign Up</a></li>
-              <li><a href="./contact.html">Contact Us</a></li>
-              <li><a href="./login and signup/login.html">Login</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">News</a></li>
-            </ul>
-          </li>
+         
           <!-- <li class="footet-nav-list"><a href="#">FAQ</a></li> -->
           <li class="footer-nav-list">
             Newsletter
@@ -337,8 +405,11 @@
           </li>
         </ul>
       </nav>
-      <small class="footer-copyright">Optimum-Finance Limited</small>
+      <small class="footer-copyright">@BBN NAIJA BETTING</small>
     </footer>
     <!-- footer -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
