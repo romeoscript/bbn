@@ -111,6 +111,32 @@
   color: white;
   border: none;
 }
+.bet-login{
+
+  bottom: 0;
+  background-color:#444444;
+  display: flex;
+  width: 90%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+.bet-login a{
+  color: white;
+  margin: 2px;
+}
+.bet-login svg{
+  width: 30px;
+  color: white;
+  cursor: pointer;
+}
+.bet-login .log{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .betslip form button:hover{
     cursor: pointer;
     opacity: .7;
@@ -195,8 +221,50 @@
 
 }
 
+.bet-click{
+  display: none;
+  position: fixed;
+  right: 0;
 
+  border-radius: 5px;
+  bottom: 5%;
+  width: auto;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  z-index: 32;
+
+}
+.bet-click .bet-circle{
+  color: white;
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+  background-color: red;
+
+}
 @media (max-width:900px){
+.bet-click{
+  display: flex;
+  cursor: pointer;
+}
+  .betslip{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 32;
+    transition: all 1.5s ease;
+  }
+  .betslip form, .bet-login{
+    width: 100%;
+  }
  .grid-contain h3{
   font-size: 2vh;
  }
